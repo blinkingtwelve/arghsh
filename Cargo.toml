@@ -1,0 +1,18 @@
+[package]
+name = "arghsh"
+version = "0.1.0"
+authors = ["nullenenenen"]
+edition = "2018"
+description = "A login shell for SSH RPC that safely passes through your argument vector."
+homepage = "https://github.com/blinkingtwelve/arghsh"
+repository = "https://github.com/blinkingtwelve/arghsh"
+license = "Unlicense"
+keywords = ["ssh", "shell", "escaping", "AAARGH"]
+categories = ["command-line-utilities", "network-programming"]
+include = ["src/**/*", "Cargo.toml", "Cargo.lock", "LICENCE", "README.md"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.64"
+nix = "0.20.0"
