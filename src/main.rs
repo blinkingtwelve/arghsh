@@ -39,5 +39,5 @@ fn main() {
     }
     let argv: Vec<String> = from_str(&args[2]).expect("That's not a JSON-array of strings");
     execv_stringvec(&argv); // on the happy path execution of this program will stop here
-    panic!(format!("Exec failed: {}", argv[0]));
+    panic!("Exec failed: {}", argv[0]);
 }
