@@ -1,6 +1,6 @@
 [package]
 name = "arghsh"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["nullenenenen"]
 edition = "2018"
 description = "A login shell for SSH RPC that safely passes through your argument vector."
